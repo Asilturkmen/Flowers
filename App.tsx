@@ -14,7 +14,7 @@ export default function App() {
     <div className="relative w-full h-screen bg-gradient-to-b from-[#020617] via-[#0f172a] to-[#020617] overflow-hidden text-white selection:bg-cyan-500/30">
       <StarryBackground />
 
-      <main className="relative z-10 w-full h-full flex items-end justify-center pb-0 md:pb-12">
+      <main className="relative z-10 w-full h-full flex items-end justify-center">
         <AnimatePresence>
           {mounted && (
             <motion.div

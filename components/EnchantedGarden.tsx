@@ -41,7 +41,7 @@ export const EnchantedGarden: React.FC = () => {
     <div className="relative w-full h-full flex justify-center items-end">
       <svg
         viewBox="-400 0 800 600"
-        className="w-full h-full max-h-[85vh] md:max-h-[95vh]"
+        className="w-full h-full"
         style={{ filter: 'drop-shadow(0 0 30px rgba(6,182,212,0.1))' }}
         preserveAspectRatio={isMobile ? "xMidYMax slice" : "xMidYMax meet"}
       >
